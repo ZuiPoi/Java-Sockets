@@ -26,7 +26,7 @@ public class Writer {
 
 	
 	public static  void serialize(Object Spoon) throws InterruptedException {
-		String pathLoc = "C:\\Users\\poi\\Documents\\Eclipse\\sys_prog_y3_l2\\src\\shared\\battlezone";
+		String pathLoc = "YOUR PATH HERE";
 		String extension = ".ser";
 		int incVal = 1;
 		File battleZone = new File(pathLoc+incVal+extension);
@@ -55,7 +55,7 @@ public class Writer {
 	
 	public static void finalSerialize(Object x) throws IOException {
   
-		String outPathLoc = "C:\\Users\\poi\\Documents\\Eclipse\\sys_prog_y3_l2\\src\\SavedTheWorldAgain\\battlezone";
+		String outPathLoc = "YOUR PATH HERE";
 		String extension = ".ser";
 		int incVal = 1;
 		File battleZone = new File(outPathLoc+incVal+extension);
@@ -86,7 +86,7 @@ public class Writer {
 	    String first = "first";
 	    String second = "second";
 	    
-		String pathLoc = "C:\\Users\\poi\\Documents\\Eclipse\\sys_prog_y3_l2\\src\\shared\\";
+		String pathLoc = "YOUR PATH HERE";
 
 		
 		ObjectInputStream objectinputstream = null;
@@ -145,7 +145,7 @@ public class Writer {
 	}
 	
 	public static void cleanDirectory() {
-		File dir = new File("C:\\Users\\poi\\Documents\\Eclipse\\sys_prog_y3_l1\\src\\shared\\");
+		File dir = new File("YOUR PATH HERE");
 	    for (File file: dir.listFiles()) {
 	        if (file.isDirectory())
 	            cleanDirectory();
