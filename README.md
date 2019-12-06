@@ -14,3 +14,5 @@ and written to an array list.
 
 Client then matches a hero of the same type as the villain (fly/smart/strong) and appends to the array list
 Client then returns these to the server which the server can then write to a file
+
+If testing this code be sure to update the "YOUR PATH HERE" locations in the Writer file to the SHared and SavedTheWorld again folders.
